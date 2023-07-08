@@ -1,0 +1,22 @@
+{
+    "name": "beerfranz/service-bundle",
+    "description": "Common code for a micro-service, like authentication",
+    "type": "symfony-bundle",
+    "require": {
+        "firebase/php-jwt": "^6.7",
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beerfranz\\ServiceBundle\\": "src/"
+        }
+    },  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beerfranz",
+            "email": "francois.guegnaud@gmail.com"
+        }
+    ]
+}
